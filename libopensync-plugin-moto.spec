@@ -11,6 +11,8 @@ Source:		libopensync-plugin-moto-0.22.tar.bz2
 BuildRoot:	%{_tmppath}/%{name}-%{version}
 
 Requires:	libopensync-plugin-python
+Requires:	python-dateutil
+Requires:	python-pybluez
 
 %description
 This is a VERY EXPERIMENTAL plugin for syncing with Motorola phones 
