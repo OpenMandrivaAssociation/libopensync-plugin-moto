@@ -10,7 +10,7 @@ Source:         http://www.opensync.org/download/releases/%{version}/%{name}-%{v
 BuildRequires:  libopensync-devel < 0.30
 Requires:       libopensync >= %{epoch}:%{version}
 Requires: python-dateutil
-Requires: pybluez
+Requires: python-pybluez
 BuildRoot:      %{_tmppath}/%{name}-%{version}
 BuildArch: noarch
 
