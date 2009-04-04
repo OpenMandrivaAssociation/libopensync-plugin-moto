@@ -26,14 +26,12 @@ Plugin for syncing with Motorola phones via libopensync.
 %build
 
 %install
-{%__rm} -rf %{buildroot}
 install -p -m644 -D motosync.py \
     %{buildroot}/%{_libdir}/opensync/python-plugins/motosync.py
 install -p -m644 -D moto-sync \
     %{buildroot}/%{_datadir}/opensync/defaults/moto-sync
 
 %clean
-{%__rm} -rf %{buildroot}
 
 %files
 %defattr(-,root,root,-)
