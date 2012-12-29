@@ -1,12 +1,12 @@
 Name:           libopensync-plugin-moto
-Version:        0.22
+Version:        0.36
 Epoch:          1
-Release:        %mkrel 4
+Release:        1
 Summary:        Plugin for syncing with Motorola phones via libopensync
 License:        GPLv2+
 Group:          Office
 URL:            http://www.opensync.org
-Source:         http://www.opensync.org/download/releases/%{version}/%{name}-%{version}.tar.bz2
+Source:         http://www.opensync.org/download/releases/0.36/%{name}-%{version}.tar.bz2
 BuildRequires:  libopensync-devel < 0.30
 Requires:       libopensync >= %{epoch}:%{version}
 Requires: python-dateutil
@@ -67,4 +67,5 @@ install -p -m644 -D moto-sync \
 
 * Sat Feb 21 2009 Guillaume Bedot <littletux@mandriva.org> 0.22-1mdv2009.1
 - First package for libopensync-plugin-moto
+
 

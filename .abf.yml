@@ -1,2 +1,4 @@
+removed_sources:
+  libopensync-plugin-moto-0.22.tar.bz2: 8568a0fec9011820a3c6062115ead9bb711fd403
 sources:
-  "libopensync-plugin-moto-0.22.tar.bz2": 8568a0fec9011820a3c6062115ead9bb711fd403
+  libopensync-plugin-moto-0.36.tar.bz2: 794c9117708240ae4787b31e687a527cd4b08708
