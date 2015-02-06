@@ -1,7 +1,7 @@
 Name:           libopensync-plugin-moto
 Version:        0.36
 Epoch:          1
-Release:        1
+Release:        2
 Summary:        Plugin for syncing with Motorola phones via libopensync
 License:        GPLv2+
 Group:          Office
