@@ -5,7 +5,7 @@ Release:        2
 Summary:        Plugin for syncing with Motorola phones via libopensync
 License:        GPLv2+
 Group:          Office
-URL:            http://www.opensync.org
+URL:            https://www.opensync.org
 Source:         http://www.opensync.org/download/releases/0.36/%{name}-%{version}.tar.bz2
 BuildRequires:  libopensync-devel < 0.30
 Requires:       libopensync >= %{epoch}:%{version}
